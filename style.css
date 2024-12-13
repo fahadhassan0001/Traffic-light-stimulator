@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    margin: 0;
+  }
+  
+  .traffic-light {
+    width: 120px;
+    height: 300px;
+    background-color: #333;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .light {
+    width: 100px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 10px 0;
+    opacity: 0.3;
+  }
+  
+  .red {
+    background-color: red;
+  }
+  
+  .yellow {
+    background-color: yellow;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
+  /* To highlight the active light */
+  .active {
+    opacity: 1;
+  }
+  
